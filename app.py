@@ -7,7 +7,7 @@ import pandas as pd
 df = pd.read_csv("df_pca_4_test_scaled_4.csv")
 
 fig = px.scatter_3d(
-    df_pca_4_test_scaled_4,
+    df,
     x='PC1', y='PC2', z='PC3',
     color='Cluster',
     color_discrete_map=cluster_color_map,
