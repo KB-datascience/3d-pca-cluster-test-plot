@@ -10,7 +10,6 @@ fig = px.scatter_3d(
     df,
     x='PC1', y='PC2', z='PC3',
     color='Cluster',
-    color_discrete_map=cluster_color_map,
     size='PC4_scaled',
     opacity=0.7,
     title='PCA 3D Clusters on Test Data'
